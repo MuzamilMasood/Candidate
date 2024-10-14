@@ -15,12 +15,12 @@
 
 <body>
     <div class="wrapper">
-        <header class=" d-flex p-2">
+        <header class=" d-flex p-2 d-none d-lg-flex">
             <div class="col-2 m-0 text-center p-1">
                 <img src="img\2.jpeg" id="certn" alt="" style="width: 100px;height: auto;">
             </div>
-            <div class="col-9" style="color: black; text-align: start;">
-                <h5 class="p-0 m-0 " style="font-weight: bolder;">CERTN Test Account 2</h5>
+            <div class="col-9 " style="color: black; text-align: start;">
+                <h5 class="p-0 m-0 fs-lg-6" style="font-weight: bolder;">CERTN Test Account 2</h5>
                 <h6 style="font-size: smaller; ">Last Logged in: September 23 </h6>
             </div>
             <div class="col-1">
@@ -37,10 +37,10 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="header">
-                    <img src="img\1.jfif" alt=""
+                    <!-- <img src="img\1.jfif" alt=""
                         style="width: 5vw;height: 5vw;border-radius: 50%; margin-top: 10px;margin-left: 0vw;">
                     <h5 class="text-center" style="color: white; margin-top: 10px; font-size: x-small;">CERTNI
-                        Tenant02</h5>
+                        Tenant02</h5> -->
                     <div class="text-center"
                         style="color: white; background-color: rgba(163 158 158 / 66%);width: 30px;border-top-right-radius: 20px; border-bottom-right-radius: 20px; margin-top: 35px;">
                         <i class="fa fa-chevron-left"></i>
@@ -76,14 +76,9 @@
                         <p class="class-right-border" href="#Contact Us"><i class="fa fa-address-book me-1"></i>
                             Support</li>
                         </p>
-                        <div class="d-flex text-white w-75 ">
-                            <label class="switch">
-                                <input type="checkbox">
-                                <span class="slider round"></span>
-                            </label>
-                            <div>
-                                <p style="margin-left: 10px;">New UI</p>
-                            </div>
+                        <div class="col-1">
+                            <button class="btn btn-sm-info border border-light p-1 mt-2 text-center"
+                                style="border-radius: 20px; font-size:xx-small; width: 75vw; color: white ;">LOG OUT</button>
                         </div>
 
                     </div>
@@ -100,7 +95,7 @@
           </nav>
           
         <div class="body-content d-flex flex-row py-0 " style="background-color: #f0f0f0;">
-            <div class="d-none d-lg-block" style="width: 21vw;background-color: #29405B;border-radius: 0px 70px 0px 0px; margin-top: 30px;">
+            <div class="d-none d-lg-block" style="width: 34vw;background-color: #29405B;border-radius: 0px 70px 0px 0px; margin-top: 30px;">
                 <div class="sidebar wrapper sidebar" >
                     <div class="header">
                         <img src="img\1.jfif" alt=""
@@ -114,10 +109,10 @@
                     </div>
                     <div class="d-flex flex-column body-content">
                         <div class="content p-2"
-                            style="color: white;margin-left: 14px;font-size: x-small; padding: 10px; overflow-y: scroll">
+                            style="color: white;margin-left: 14px;font-size: small; padding: 10px; overflow-y: scroll">
                             <p class="class-right-border" href="#"><i class="fa fa-home me-1"></i> Dashboard</p>
                             <p class="class-right-border" href="#To Do Calendar">
-                                <i class="fa fa-calendar me-1"></i> Candidates
+                                <i class="fa fa-chevron-right me-1"></i> Candidates
                             </p>
                             <p class="class-right-border" href="#Grade Book"><i class="fa fa-book me-1"></i>
                                 Certificates</li>
@@ -128,16 +123,16 @@
                             <p class="class-right-border" href="#Progress"><i class="fa fa-bars me-1"></i> Job Board
                                 </li>
                             </p>
-                            <p class="class-right-border" href="#Mail"><i class="fa fa-paper-plane me-1"></i> Tags</li>
+                            <p class="class-right-border" href="#Mail"><i class="fa fa-tag me-1"></i> Tags</li>
                             </p>
-                            <p class="class-right-border" href="#Lecture Schedule"><i class="fa fa-calendar me-1"></i>
+                            <p class="class-right-border" href="#Lecture Schedule"><i class="fa fa-comment me-1"></i>
                                 Messages</li>
                             </p>
-                            <p class="class-right-border" href="#Notes"><i class="fa fa-sticky-note me-1"></i> Clients
+                            <p class="class-right-border" href="#Notes"><i class="fa fa-handshake me-1"></i> Clients
                                 </li>
                             </p>
                             <p class="class-right-border" href="#My Study Scheme"><i
-                                    class="fa fa-graduation-cap me-1"></i> Settings</li>
+                                    class="fa fa-gear me-1"></i> Settings</li>
                             </p>
                             <p class="class-right-border" href="#Contact Us"><i class="fa fa-address-book me-1"></i>
                                 Support</li>
@@ -181,7 +176,7 @@
                             <div class="px-4">
                                 <div class="d-flex justify-content-around p-2">
                                     <h5>All Candidates (8)</h5>
-                                    <button class="btn btn-sm"
+                                    <button class="btn btn-sm "
                                         style="background-color: #29405B; color: white; border-radius: 30px;">ADD NEW
                                     </button>
                                 </div>
@@ -201,7 +196,7 @@
                         </div>
 
                         <div class="body-content"
-                            style="color: black; margin-left: 14px; font-size: x-small; display: flex;">
+                            style="color: black; margin-left: 14px; font-size: small; display: flex;">
                             <!-- First UL: Scrollable -->
                             <div style="flex-grow: 1;">
                                 <ul class="scrollable-ul ps-0" style="margin: 0; padding: 0;">
